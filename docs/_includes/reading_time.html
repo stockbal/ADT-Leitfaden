@@ -1,0 +1,2 @@
+{% capture time %}{{ content | reading_time }}{% endcapture %}
+<span>Lesezeit: <em>ca. {{ time }} {% if time == '1' %}Minute{% else %}Minuten{% endif %}</em></span>
